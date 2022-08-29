@@ -1,17 +1,21 @@
 """EX01 - Chardle - A cute step toward Wordle."""
 
-
 __author__ = "730529967"
 
 word: str = input("Enter a 5-character word: ")
+
 if len(word) != 5:
         print("Error: Word must contain 5 characters")
         exit()
+
 guess: str = input("Enter a single character: ")
+
 if len(guess) != 1:
         print("Error: Character must be a single character.")
         exit()
+        
 print("Searching for " + (guess) + " in " + (word))
+
 
 num_matches: int = 0
 
