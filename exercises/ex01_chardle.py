@@ -1,5 +1,6 @@
 """EX01 - Chardle - A cute step toward Wordle."""
 
+
 __author__ = "730529967"
 
 word: str = input("Enter a 5-character word: ")
@@ -42,5 +43,3 @@ if num_matches == 4:
     print("4 instances of " + guess + " found in " + word)
 if num_matches == 5:
     print("5 instances of " + guess + " found in " + word)
-
-
