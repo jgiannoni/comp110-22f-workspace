@@ -1,0 +1,2 @@
+SECRET: int = 3
+
