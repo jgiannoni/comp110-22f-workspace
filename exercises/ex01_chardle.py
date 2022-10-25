@@ -5,14 +5,14 @@ __author__ = "730529967"
 word: str = input("Enter a 5-character word: ")
 
 if len(word) != 5:
-        print("Error: Word must contain 5 characters")
-        exit()
+    print("Error: Word must contain 5 characters")
+    exit()
 
 guess: str = input("Enter a single character: ")
 
 if len(guess) != 1:
-        print("Error: Character must be a single character.")
-        exit()
+    print("Error: Character must be a single character.")
+    exit()
         
 print("Searching for " + (guess) + " in " + (word))
 
@@ -38,7 +38,7 @@ if guess == word[4]:
 if num_matches == 0:
     print("No instances of " + guess + " found in " + word)
 if num_matches == 1:
-    print("1 instances of " + guess + " found in " + word)
+    print("1 instance of " + guess + " found in " + word)
 if num_matches == 2:
     print("2 instances of " + guess + " found in " + word)
 if num_matches == 3:
